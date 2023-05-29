@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aytor</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"> 
+    <link rel="stylesheet" href="./css/all.min.css"> 
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- NAVBAR STARTS -->
+    <header>
+      <!-- Lg menu starts here -->
+    <nav class="navbar navbar-expand-lg myNavbarLg d-none d-lg-block">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="./image/Logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Togbackground: #FF6F61;
+          gle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="myNav">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0 menus">
+
+              <li class="nav-iteam"><a class="nav-link active" aria-current="page" href="#">Home <span><i class="bi bi-chevron-down"></i></span></a>
+              <ul>
+                <li><a href="#">Home1</a></li>
+                <li><a href="#">Home2</a></li>
+                <li><a href="#">Home3</a></li>
+                <li><a href="#">Home4</a></li>
+              </ul>
+              </li>
+
+              <li class="nav-iteam"><a class="nav-link" href="#">Shop <span><i class="bi bi-chevron-down"></i></span></a>
+                <ul>
+                  <li><a href="#">Shop1</a></li>
+                  <li><a href="#">Shop2</a></li>
+                  <li><a href="#">Shop3</a></li>
+                  <li><a href="#">Shop4</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-iteam"><a class="nav-link" href="#">Pages <span><i class="bi bi-chevron-down"></i></span></a>
+              <ul>
+                <li><a href="#">Page 1</a></li>
+                <li><a href="#">Page 2</a></li>
+                <li><a href="#">Page 3</a></li>
+                <li><a href="#">Page 4</a></li>
+              </ul>
+              </li>
+
+              <li class="nav-iteam"><a class="nav-link" href="#">Featuers <span><i class="bi bi-chevron-down"></i></span></a>
+              <ul>
+                <li><a href="#">Feture 1</a></li>
+                <li><a href="#">Feture 2</a></li>
+                <li><a href="#">Feture 3</a></li>
+                <li><a href="#">Feture 4</a></li>
+              </ul>
+              </li>
+
+              <li class="nav-iteam"><a class="nav-link" href="#">Blogs <span><i class="bi bi-chevron-down"></i></span></a>
+              <ul>
+                <li><a href="#">Blog 1</a></li>
+                <li><a href="#">Blog 2</a></li>
+                <li><a href="#">Blog 3</a></li>
+                <li><a href="#">Blog 4</a></li>
+              </ul>
+              </li>
+
+              <li  class="nav-iteam"><a class="nav-link" href="#">Contact <span><i class="bi bi-chevron-down"></i></span></a>
+                <ul>
+                  <li><a href="#">01234567890</a></li>
+                  <li><a href="#">01234567890</a></li>
+                  <li><a href="#">01234567890</a></li>
+                  <li><a href="#">01234567890</a></li>
+                </ul>
+              </li>
+                </ul>
+              </li>
+              
+            </ul>
+            <div class="iconGroup">
+                <ul>
+                  <li><span><i class="fa-solid fa-magnifying-glass"></i></i></span></li>
+                  <li><a href="#"><i class="fa-solid fa-user-tie"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-bag-shopping"></i>
+                  <span>0</span>
+                  </a></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Lg menu ends here -->
+      <!-- Sm menu starts here -->
+      <div class="myNavbarSm d-lg-none">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="menu col-3">
+
+              <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                <span><i style="color: black;" class="bi bi-list"></i></span>
+              </a>
+              
+              
+              <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menus</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <div>
+                   <ul>
+                    <li><a style="color: black;" href="#">Home</a></li>
+                    <li><a style="color: black;" href="#">Shop</a></li>
+                    <li><a style="color: black;" href="#">Page</a></li>
+                    <li><a style="color: black;" href="#">Features</a></li>
+                    <li><a style="color: black;" href="#">Blog</a></li>
+                    <li><a style="color: black;" href="#">Contact</a></li>
+                   </ul>
+                  </div>
+                  <div class="dropdown mt-3">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                      Dropdown button
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="logo col-6 text-center">
+              <img src="./image/Logo.png" alt="">
+            </div>
+            <div class="iconGroup col-3">
+              <ul>
+                <li><span><i class="fa-solid fa-magnifying-glass"></i></i></span></li>
+                <li><a href="#"><i class="fa-solid fa-bag-shopping"></i>
+                <span>0</span>
+                </a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Sm menu ends here -->
+    </header>
+      <!-- NAVBAR ENDS -->
+      <!-- BANNER STARTS HERE -->
+      <section id="banner" class="d-lg-block d-none">
+        <div class="banner-slide" style="background-image: url(./image/banner.jpg );">
+          <div class="container h-100">
+            <div class="row h-100 align-items-center">
+              <div class="col-lg-5">
+                <h5>Mega Sale</h5>
+                <h1>Up to 35% off</h1>
+                <p>Objectively incubate enabled innovation through leveraged mindshare. Competently.</p>
+                <a href="#">Shop Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      
+      
+        <div class="banner-slide" style="background-image: url(./image/banner1.jpg );">
+          <div class="container h-100">
+            <div class="row h-100 align-items-center">
+              <div class="col-lg-5">
+                <h5>Mega Sale</h5>
+                <h1>Up to 35% off</h1>
+                <p>Objectively incubate enabled innovation through leveraged mindshare. Competently.</p>
+                <a href="#">Shop Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+
+      
+        <div class="banner-slide" style="background-image: url(./image/banner2.jpg );">
+          <div class="container h-100">
+            <div class="row h-100 align-items-center">
+              <div class="col-lg-5">
+                <h5>Mega Sale</h5>
+                <h1>Up to 35% off</h1>
+                <p>Objectively incubate enabled innovation through leveraged mindshare. Competently.</p>
+                <a href="#">Shop Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+
+      </section>
+
+
+      <section id="bannerSm" class="d-block d-lg-none">
+        <!-- Sm starts here -->
+        <div class="banner-slideSm" style="background-image: url(./image/banner1.jpg );width: 320px;height: 216px;">
+          <div class="container h-100">
+            <div class="row h-100 align-items-center">
+              <div class="col-lg-5">
+                
+                <h1 style="font-size: 30px;" >Up to 35% off</h1>
+                <p>Objectively incubate enabled innovation through leveraged mindshare. Competently.</p>
+                <a href="#">Shop Now </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="banner-slideSm" style="background-image: url(./image/banner2.jpg );width: 320px;height: 216px;">
+          <div class="container h-100">
+            <div class="row h-100 align-items-center">
+              <div class="col-lg-5">
+                
+                <h1 style="font-size: 30px;" >Up to 35% off</h1>
+                <p>Objectively incubate enabled innovation through leveraged mindshare. Competently.</p>
+                <a href="#">Shop Now </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="banner-slideSm" style="background-image: url(./image/banner.jpg );width: 320px;height: 216px;">
+          <div class="container h-100">
+            <div class="row h-100 align-items-center">
+              <div class="col-lg-5">
+                
+                <h1 style="font-size: 30px;" >Up to 35% off</h1>
+                <p>Objectively incubate enabled innovation through leveraged mindshare. Competently.</p>
+                <a href="#">Shop Now </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sm ends here -->
+      </section>
+
+      <!-- BANNER ENDS HERE -->
+      <!-- BANNER1 STARTS HERE -->
+       
+
+
+
+      <!-- BANNER1 ENDS HERE -->
+      
+
+
+
+
+
+
+
+
+
+    <script src="./js/jquery-3.7.0.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
